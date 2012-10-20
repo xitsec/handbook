@@ -1,5 +1,7 @@
 language: haskell
 notifications:
   email: false
+  irc:
+    - "irc.oftc.net#cryptoparty"
 install:
   - cabal install pandoc
