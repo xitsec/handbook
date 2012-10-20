@@ -7,6 +7,13 @@ https://cryptoparty.org/wiki/CryptoPartyHandbook
 
 Comments and questions about handbook content are more than welcome, please submit them using new issues and pull requests.
 
+Build
+-----
+
+[![Build Status](https://secure.travis-ci.org/cryptoparty/handbook.png)](http://travis-ci.org/cryptoparty/handbook)
+
+The CryptoParty Handbook is continuously built on the Travis CI platform. Build status is updated by the icon above. Further build information can be found on [http://travis-ci.org/cryptoparty/handbook](http://travis-ci.org/cryptoparty/handbook).
+
 Peer Review Process
 -------------------
 
