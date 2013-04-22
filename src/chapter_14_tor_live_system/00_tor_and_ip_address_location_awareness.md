@@ -1,0 +1,35 @@
+Tor and IP Address Location Awareness
+======================================
+
+What Network Process Reveals Your Location
+------------------------------------------
+
+You can harden your computer's data flow by following known strategies implementing data encryption techniques on your emails and by utilizing secure and safe software programs that encrypt your chats, texts, etc - then assume this data that you are sending over the internet is protected from prying eyes because no data is in the clear. But consider the other data that you have no control over that is sending out information about you during normal network operation dynamics. 
+
+The process of an internet connection and sending of data is somewhat complex and involves a number of elements. We will not go over this technical information here but the most important elements that you should be concerned with is those that give away your location. These can include data called header files and DNS requests which expose your IP Address. The IP Address being the unique computer number in the form xxx.xxx.xxx.xxx that your internet service provider (ISP) assigned to your home's internet connection. 
+
+This dynamic is also present on a cellular/smart phone except that the data first travels through the cellular carrier's wireless cell network and then onto the regular internet. So in the same manner the IP Address assigned to your cell/smart phone can be used to identify your exact location through either a GPS satellite or by determining which cell tower you are using.
+
+In a network using IPv6 as well as IPv4 protocols it is even worse. The difference between these two types of IP Addresses is that the IPv6 also gives you the hardware identification number of your device (also called the MAC ID) whether it be a laptop or a cell/smart phone. So the device itself becomes living hard evidence of the communication. 
+
+Why Giving Strangers Your Home Address is Bad
+---------------------------------------------
+
+The reason is equally important as why it is not a good idea to give out your physical home address to strangers as it is to not give out your digital home address to each and every web server you land on with your browser or to any other server whether it be an mail server, chat server, IRC server, forum or whatever. But this is what happens on a regular network with your laptop. Even using your cellular for texting gives an exact location on Earth through geo-location of the IP Address to the server. Now every stranger globally knows where you live. And even if all your data is encrypted what if there was a leak or zero day exploit or the NSA's quantum computers developed the power to decrypt your encrypted email. The NSA can decrypt https and Truecrypt disks and NSA has partnered with Google to capture and analyze your searches. 
+
+In oppressive countries where people discuss ideas against their governments it has been routine to latch the IP Address of these individuals and then the ISP (internet service provider) sends it off to government officials. Recently hardware surveillance and censorship devices such as the Blue Coat SG-9000 were used to root out activists who were then brutally murdered. All It takes is a corrupt government official to spawn nazi-like control of your communications.
+
+Other countries that may not be so extreme and may only be pursuing possible copyright infringement or simply building a profile of your personal surfing habits for later use like selling the information to marketing companies. It may be offensive to you that your home internet service provider may now be acting as a spy from inside your network for random law enforcement surveillance and possibly censoring information that your government does not want you to see instead sending you a substitute page like a man-in-the-middle hacker attack. Or in some cases governments or corporations are using the conversations of private citizens to manipulate the stock market or cheating by fixing elections. Alternatively the server on the other end may be sharing or selling  log files with government or corporations as well.
+
+Even if your government neighbor next-door is not scanning your traffic there is always criminals out there looking for your personal data and credit card information. Some of these criminals have been known to infect your computer with Trojans to spy on your keystrokes and provide a back-door to your computer so that anyone in the criminal organization can access your personal computer for whatever purpose. The only way such a Trojan could be used as a back-door is if your true IP Address is known. The government in Europe recently used the FinFly Trojan to spy on activists this way by planting it in documents they knew activists would download and install on their pc.
+ 
+How Tor Protects from Identifying Your Location
+-----------------------------------------------
+
+TOR solves this problem by taking the network data and passing it through a miscellaneous sequence of computer relays in an encrypted tunnel before releasing it out to the internet from a different location than where you are through the exit node computer. That way your true location is never known. This process is also called a mixer. The military use the TOR network or the Siprnet (modeled after the TOR network) for the same reason to provide anonymity as to geo-location awareness.  Only they go one more step and employ a virtual private network (VPN) over top the mixer to send encrypted data over.
+
+Since your sent email is encrypted with PGP / GPG then the data that comes out of the TOR exit relay is just a jumble of ASCII characters. Otherwise if you have made a post to a forum that you logged into and the forum is not using any encryption (using http instead of https) or you did not encrypt your email message then the data is in the clear when it exits the TOR exit node. But since there is no true IP Address associated with the clear text email - the world does not know your real home address only a TOR IP Address. Or what if there was a DNS leak in some software that is being used the IP shown is not yours but one from the TOR network.
+
+On a cell phone or smart phone this concept is also at work. If you made a text using a service like Twitter that does not use any encryption and send it off through the network without using TOR anyone interested can actually locate where you are by checking the geo-location of your cellular IP. That is a scary thing if this knowledge is abused by the wrong person. If you use a torized IM service like Gibberbot then your IP Address and geo-location is unknown.
+
+Although TOR can fail under certain circumstances, such as a DNS request being leaked through Java or JavaScript, it happens rarely and the TOR crew are fast to implement a patch. But given, even though there is a lot more interest in protecting personal data these days with the use of good quality software and web services that protect their clients security with encryption, still this does not protect your IP Address.
